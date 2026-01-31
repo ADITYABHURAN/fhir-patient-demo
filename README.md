@@ -121,12 +121,6 @@ DELETE /api/patients/{id}
 - **IGenericClient**: Fluent API for FHIR server communication
 - **Resource Mapping**: Converting between DTOs and FHIR resources
 
-### Code Quality
-- Clean separation of concerns (Controller → Service → FHIR Client)
-- Comprehensive comments explaining FHIR concepts
-- Proper exception handling for FHIR errors
-- Input validation with meaningful error messages
-
 ## 🏥 About FHIR
 
 **FHIR (Fast Healthcare Interoperability Resources)** is the modern standard for exchanging healthcare information electronically. Key points:
