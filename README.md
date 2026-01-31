@@ -2,8 +2,6 @@
 
 A Spring Boot REST API demonstrating healthcare interoperability using **HAPI FHIR** to interact with FHIR R4 resources.
 
-Built to showcase understanding of the FHIR standard and the technology stack used by **Smile Digital Health** (Smile CDR).
-
 ## 🛠️ Technology Stack
 
 | Technology | Version | Purpose |
