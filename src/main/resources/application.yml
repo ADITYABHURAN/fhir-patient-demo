@@ -1,0 +1,17 @@
+# Application Configuration
+server:
+  port: 8080
+
+# FHIR Server Configuration
+fhir:
+  # Public HAPI FHIR R4 test server - great for demos and learning
+  # In production, this would point to your organization's FHIR server (e.g., Smile CDR)
+  server:
+    base-url: https://hapi.fhir.org/baseR4
+
+# Logging configuration - helpful for debugging FHIR interactions
+logging:
+  level:
+    # Show FHIR client HTTP requests/responses at DEBUG level
+    ca.uhn.fhir: INFO
+    com.example.fhirpatientdemo: DEBUG
